@@ -27,7 +27,7 @@ SECRET_KEY = 'qnz$)_11)^o1&!28-**jh0ek=oz(r24fx!urtan&%&yt-o@w!3'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://django-todo-list-ci.herokuapp.com'
+    'django-todo-list-ci.herokuapp.com'
 ]
 
 
