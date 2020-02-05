@@ -33,7 +33,9 @@ SECRET_KEY = 'qnz$)_11)^o1&!28-**jh0ek=oz(r24fx!urtan&%&yt-o@w!3'
 DEBUG = development
 
 ALLOWED_HOSTS = [
-    os.environ.get('HOSTNAME')
+    os.environ.get('HOSTNAME'),
+    '127.0.0.1',
+    'localhost'
 ]
 
 
